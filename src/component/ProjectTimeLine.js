@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Comp.css';
 import Thread from './Thread';
 
-function Comp() {
+function ProjectTimeLine() {
   const [expandedYear, setExpandedYear] = useState(null);
   const years = [2021, 2022, 2023, 2024]; // Reversed the order
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -159,4 +159,4 @@ function Comp() {
   );
 }
 
-export default Comp;
+export default ProjectTimeLine;

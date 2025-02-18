@@ -1,11 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import Comp from './comps/Comp';
+import ProjectTimeLine from './component/ProjectTimeLine';
 function App() {
   return (
-    <>
-    <Comp />
-    </>
+    <ProjectTimeLine/>
   );
 }
 
